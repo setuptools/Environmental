@@ -1,0 +1,34 @@
+{
+  "name": "Environmental",
+  "version": "1.0.0",
+  "description": "",
+  "author": "DEVOYOR",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron . --trace-warnings",
+    "pack": "electron-builder --dir",
+  },
+  "build": {
+    "appId": "com.environmental",
+    "productName": "Environmental",
+    "asar": false,
+    "win": {
+      "target": "nsis",
+      "icon": "app.ico"
+    },
+    "files": [
+      "**/*"
+    ]
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "electron": "^35.1.5",
+    "electron-builder": "^26.0.12"
+  },
+  "keywords": [],
+  "license": "ISC"
+}

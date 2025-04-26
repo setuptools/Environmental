@@ -1,0 +1,89 @@
+.top-app-bar-container{
+    position: relative;
+    display: flex;
+
+    width: 100%;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.227);
+    top:0;
+    left:0;
+    align-items: center;
+    padding: 0 5px;
+
+
+    -webkit-app-region:drag;
+}
+
+#top-app-bar-label {
+    position: relative;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+}
+
+#top-app-bar-label span {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(151, 151, 151);
+    user-select: none;
+    -webkit-user-drag: none;
+
+}
+
+#top-app-bar-logo {
+    height: 15px;
+    padding-top: 0px;
+    padding-right: 3px;
+}
+
+#top-app-bar-button-container {
+    position: absolute;  
+    display: flex;
+    background-color: rgba(185, 127, 39, 0);
+    right: 10px;
+    width: 60px;
+
+    -webkit-app-region: no-drag;
+}
+
+#top-app-bar-button-container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+
+    transition: background-color 0.3s ease;
+}
+
+#top-app-bar-button-container button img {
+    height: 50%;
+    filter: grayscale(100%) brightness(1.2) opacity(0.6);
+    -webkit-app-region: no-drag;
+    pointer-events: none; 
+    transition: filter 0.3s ease;
+}
+
+#minimize-button:hover {
+    background-color: rgba(195, 195, 195, 0.6);  
+}
+
+#close-button:hover{
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+#close-button {
+    border-radius: 0px,10px;
+}
+
+#minimize-button:hover img,
+#close-button:hover img {
+    filter: none; 
+}
+

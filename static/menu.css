@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    user-select: none; /* Запретить выделение */
+    -webkit-user-select: none; /* Для Chromium */
+    -webkit-user-drag: none; /* Для Chromium */
+    -moz-user-select: none; /* Для Firefox */
+    -ms-user-select: none; /* Для IE */
+}
+
+
+.main{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    justify-content: space-between;
+}

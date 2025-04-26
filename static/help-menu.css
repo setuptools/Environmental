@@ -1,0 +1,90 @@
+
+.help-menu {
+    position: absolute;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 30px;
+    gap: 10px;
+}
+
+
+
+.help-button {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}   
+
+#settings-button:hover img {
+    animation: spin 2s linear infinite;
+}
+
+#talk-button:hover img {
+    animation: shake 1.4s ease-in-out infinite;
+    animation-delay: 0s;
+    animation-direction: normal;
+}
+
+.help-button img {
+    position: relative;
+    height: 75%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes shake {
+    0%   { transform: rotate(0deg); }
+    10%  { transform: rotate(-10deg); }
+    20%  { transform: rotate(10deg); }
+    30%  { transform: rotate(-10deg); }
+    40%  { transform: rotate(10deg); }
+    50%  { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+
+
+/* mode-switcher */
+.mode-switcher {
+    position: relative;
+    width:90px;
+    border-radius: 10px;
+
+    display: flex;
+
+    height: 100%;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+
+.mode-switcher button {
+    position: relative;
+    display: flex;
+
+    width: 30px;
+    height: 100%;
+    border-radius: 0px;
+    border: none;
+    background-color: rgba(1,1,1,0);
+    cursor: pointer;
+
+    align-items: center;
+
+}
+
+.mode-switcher button img {
+    position: relative;
+    height: 75%;
+    right: 2px;
+}

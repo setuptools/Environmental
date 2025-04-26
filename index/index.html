@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+
+    <link rel="stylesheet" href="../static/menu.css">
+    <link rel="stylesheet" href="../static/fonts.css">
+    <link rel="stylesheet" href="../static/top-app-bar.css">
+    <link rel="stylesheet" href="../static/help-menu.css">
+    <link rel="stylesheet" href="../static/environ-scroll-menu.css">
+    <link rel="stylesheet" href="../static/timer-menu.css">
+    <link rel="stylesheet" href="../static/now-audio-menu.css">
+
+
+    <title>Environmental</title>
+</head>
+<body>
+    <div class="main">
+        <div class="top-app-bar-container">
+            <div id="top-app-bar-label">
+                <img src="../app.ico" alt="logo" id="top-app-bar-logo">
+
+                <span>Environmental</span>
+            </div>
+
+
+            <div id="top-app-bar-button-container">
+                <button id="minimize-button">
+                    <img src="../assets/icons/minimize.svg" alt="minimize">
+                </button>
+
+                <button id="close-button">
+                    <img src="../assets/icons/close.svg" alt="Close">
+                </button>
+            </div>
+
+        </div>
+
+        <div class="help-menu">
+            <button class="help-button", id="settings-button">
+                <img src = "../assets/icons/settings-cog.svg" alt="Settings" id="settings-icon">
+            </button>
+
+            <button class="help-button", id="talk-button">
+                <img src = "../assets/icons/talk.svg" alt="Settings" id="settings-icon">
+            </button>
+
+            <div class="mode-switcher">
+                <button class="mode-button" id="environ-scrolls-mode">
+                    <img src="../assets/icons/environ.svg" alt="Environ">
+                </button>
+
+                <button class="mode-button" id="timer-mode">
+                    <img src="../assets/icons/timer.svg" alt="Timer">
+                </button>
+
+                <button class="mode-button" id="now-audio-mode">
+                    <img src="../assets/icons/now-audio.svg" alt="Now Audio">
+                </button>
+            </div>
+
+        </div>
+
+        <div class="environ-scrolls">
+
+
+        </div>
+
+        <div class="timer">
+            <div class="timer-container">
+                <label class="timer-clock">00:00:00</label>
+                <label class="timer-date">Monday , 24 april , 2025 year</label>
+            </div>
+
+        </div>
+
+        <div class="now-audio">
+            <label class="sorry">Sorry but in this version of app this page don't have any content :(</label>
+        </div>
+
+    </div>
+
+    <script src="../scripts/themeManager.js"></script>
+    <script src="../scripts/timer.js"></script>
+    <script src="../scripts/now_audio.js"></script>
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/environ.js"></script>   
+    
+    
+</body>
+</html> 

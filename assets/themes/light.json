@@ -1,0 +1,68 @@
+{
+    "title": "Light",
+    "description": "A light theme with a clean and modern design.",
+    "author": "DEVOYOR",
+
+
+    "background-color":[208,216,214,1],
+
+    "help-menu":{
+        "pressed-button-color":[1,1,1,0.3],
+        "settings-button-background":[20,20,20,0.15],
+        "talk-button-background":[20,20,20,0.15],
+        "mode-switcher-background":[20,20,20,0.15]
+    },
+    
+    "environ":{
+        "thumb-color":[80,200,120,1],
+        "track-color":[161,200,176,1],
+        "border-color":[150,150,150,1],
+
+        "mountain": {
+            "no-track-color": [230, 230, 230, 1],
+            "settings-button-color": [90, 90, 90, 0.6]
+        },
+        "forest": {
+            "no-track-color": [230, 230, 230, 1],
+            "settings-button-color": [90, 90, 90, 0.6]
+        },
+        "rain": {
+            "no-track-color": [230, 230, 230, 1],
+            "settings-button-color": [90, 90, 90, 0.6]
+        },
+        "fire": {
+            "no-track-color": [230, 230, 230, 1],
+            "settings-button-color": [90, 90, 90, 0.6]
+        },
+        "river": {
+            "no-track-color": [230, 230, 230, 1],
+            "settings-button-color": [90, 90, 90, 0.6]
+        },
+        "city": {
+            "no-track-color": [230, 230, 230, 1],
+            "settings-button-color": [90, 90, 90, 0.6]
+        },
+        "animal": {
+            "no-track-color": [230, 230, 230, 1],
+            "settings-button-color": [90, 90, 90, 0.6]
+        },
+        "custom": {
+            "no-track-color": [230, 230, 230, 1],
+            "settings-button-color": [90, 90, 90, 0.6]
+        }
+    },
+
+    "timer":{
+        "timer-color":[62,89,59,1],
+        "date-color":[104,150,100,1],
+
+        "font-family": "Comfortaa , sans-serif",
+        "font-weight": "bold"
+
+    },
+
+    "top-app-bar": {
+        "background-color": [1,1,1,0.3],
+        "title-color":[9, 9, 0,1]
+    }
+}

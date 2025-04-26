@@ -1,0 +1,10 @@
+{
+    "theme": "light",
+    "language": "RU",
+    "notifications": false,
+    "alwaysOnTop": false,
+    "autostart": false,
+    "hideOnClose": false,
+    "logging": true,
+    "last-mode": "environ-scrolls-mode"
+}

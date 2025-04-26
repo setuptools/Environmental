@@ -1,0 +1,45 @@
+
+
+.timer {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    background-color: rgba(43, 192, 192,0) ;
+    height: 330px;
+    top: 70px;
+}
+
+.timer.hidden{
+    opacity: 0;
+    transform: scale(0.95);
+    pointer-events: none;
+}
+
+
+.timer-container{
+    position: relative;
+    background-color: rgba(43, 192, 192,0);
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+
+}
+
+.timer-clock{
+    position: relative;
+    align-self: center;
+    color:aquamarine;
+    top: 70px;
+    height: 170px;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 600;
+    font-size: 100px;
+}
+
+
+.timer-date{
+    position: relative;
+    font-size: 22px;
+}
