@@ -18,7 +18,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/your-username/environmental.git
+   git clone https://github.com/seuptools/environmental.git
    cd environmental```
 
 2.  Установите зависимости:
@@ -45,6 +45,7 @@
 ## 📄 Лицензия
 ISC © 2025
 Автор: DEVOYOR
+
 
 
 
